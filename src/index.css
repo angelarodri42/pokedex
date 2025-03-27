@@ -1,0 +1,10 @@
+/* You can add this if you want to use the default Ant Design styles */
+@import 'antd/dist/reset.css';
+
+/* Your additional global styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+}
