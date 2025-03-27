@@ -30,8 +30,8 @@ jobs:
         run: npm run build
         env:
           # Vite needs to know the base path for GitHub Pages which is usually the repo name
-          BASE_URL: /${{ github.event.repository.name }}/pokedex/
-          BASE: /${{ github.event.repository.name }}/pokedex/
+          BASE_URL: /${{ github.event.repository.name }}/
+          BASE: /${{ github.event.repository.name }}/
           
       - name: Setup Pages
         uses: actions/configure-pages@v4
