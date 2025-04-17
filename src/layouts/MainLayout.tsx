@@ -20,12 +20,7 @@ const MainLayout: React.FC = () => {
       key: '/about',
       icon: <InfoCircleOutlined />,
       label: <Link to="/about">About</Link>,
-    },
-    {
-      key: '/dashboard',
-      icon: <AppstoreOutlined />,
-      label: <Link to="/dashboard">Dashboard</Link>,
-    },
+    }
   ];
 
   return (

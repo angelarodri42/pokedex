@@ -7,7 +7,7 @@ const { Title, Paragraph } = Typography;
 const About: React.FC = () => (
   <div>
     <Title>About Page</Title>
-    <Paragraph>This is the about page of our application.</Paragraph>
+    <Paragraph>This assignment was done by Sebko and Angela. Sebko is very smart and knows everything, Angela tries her best hehe </Paragraph>
   </div>
 );
 
